@@ -10,19 +10,14 @@ int b[] = {2,4,6,8};
 
 swapvec(a,b);
 
-for(int i = 0; i < 4; ++i)
-
-   std::cout << a[i];
+for(int i = 0; i < 4; ++i) std::cout << a[i];
 
 std::cout << std::endl;
 
-for(int i = 0; i < 4; ++i)
-
-   std::cout << b[i];
+for(int i = 0; i < 4; ++i) std::cout << b[i];
 ```
 
 Вывод: 2468 1234
-
 
 ### <font color="#tomato">Чек-лист для проверки задачи:</font>
 
