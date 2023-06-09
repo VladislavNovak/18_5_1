@@ -14,7 +14,7 @@ void swapInPairs(int &a, int &b) {
 }
 
 void swapBlocks2(vector<int> &vec, int (&arr)[ARRAYS_SIZE]) {
-    for (int i = 0; i < 3; ++i) {
+    for (int i = 0; i < ARRAYS_SIZE; ++i) {
         swapInPairs(vec[i], *(arr + i));
     }
 }
